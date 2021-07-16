@@ -3,7 +3,7 @@ import Create from '../components/createAccount/CreateAccount'
 import { useRouter } from 'next/router';
 
 
-export default function create() {
+export default function Createa() {
 
 
     const router = useRouter()
