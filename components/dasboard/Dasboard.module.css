@@ -1,0 +1,104 @@
+.dash{
+    margin-top: 95px;
+    /* height: 110vh; */
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -60px;
+}
+
+.dash .div1{
+    width: 20%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+     background-color: #fff;
+    /* justify-content: center; */
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 10%);
+    align-items: center;
+}
+.dash .div1 p{
+    color: #1479ff;
+    margin-top: 10px;
+}
+.dash .div1 h5{
+    text-transform: uppercase;
+    color: #777;
+}
+
+.dash .div2{
+    padding: 15px;
+    padding-top: 20px;
+    /* padding: 5px; */
+    width: 80%;
+    background-color:#c8eff9;
+    /* color: #777; */
+}
+.dash .div1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.insidediv{
+    width: 100%;
+    /* display: flex; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* height: 180px; */
+}
+.insidediv div{
+    width: 20%;
+    height: 153px;
+    /* background-color: gold; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 10%);
+    padding: 5px;
+}
+.insidediv div p{
+    margin: 0;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.insidediv div  i{
+   color: #1479ff;
+}
+
+.dash h3{
+    text-transform: uppercase;
+}
+
+.div2 button{
+    background-color: #1479ff;
+    border: 1px solid #1479ff;
+    padding: 0.25rem 1.5rem;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.25s;
+    margin-bottom: 30px;
+}
+.div2 button:hover{
+    transform: translateY(-2px);
+}
+
+@media only screen and (max-width: 765px){
+    .dash .div1{
+        width: 35%;
+        text-align: center;
+    }
+    .dash .div2{
+        width: 65%;
+    }
+    .insidediv{
+        flex-direction: column;
+    }
+    .insidediv div{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+}

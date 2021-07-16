@@ -1,0 +1,49 @@
+.mainco{
+
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+    line-height: 1.5;
+    margin-top: 120px;
+}
+.mainco .mainini{
+    width: 50%;
+}
+
+.mainco .mainini:nth-child(1){
+    padding: 10px;
+}
+.mainco .img{
+    width: 95%;
+    height: 100%;
+}
+.spanc{
+    color: #7b4eff;
+}
+.mainco button{
+    background-color: #3f51b5;
+    color: white;
+    border: 1px solid #3f51b5;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.mainco h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 765px){
+    .mainco{
+        flex-direction: column;
+    }
+    .mainco .mainini{
+        width: 100%;
+    }
+    .mainco .mainini:nth-child(2){
+        margin-top: 40px;
+    }
+}
